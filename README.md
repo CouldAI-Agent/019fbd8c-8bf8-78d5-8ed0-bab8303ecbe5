@@ -1,25 +1,29 @@
-# Nexus AI Summit Flyer
+# Marriage Seminar Flyer
 
-A sleek, responsive digital flyer for the "Nexus AI Summit", built with Flutter.
+A beautifully designed, responsive digital flyer for a marriage seminar, built with Flutter.
+
+## Overview
+This application serves as a promotional flyer for a seminar titled "Secrets of Long-Lasting Marriages: Building a Marriage That Lasts a Lifetime". It highlights the event details, guest speakers, and schedule in a visually appealing mobile and desktop layout.
 
 ## Features
-- **Responsive Design:** A beautiful mobile-first flyer view that smoothly scales and limits width on tablet and desktop.
-- **Hero Image:** A vibrant gradient hero showcasing the event theme.
-- **Event Details:** Clean information cards displaying the date, time, and location of the event.
-- **Lineup:** Dynamic chips highlighting key speakers and their roles.
-- **Call to Action:** A prominent, fixed bottom action bar for immediate registration.
+- **Responsive Layout:** Automatically adapts to both mobile screens and desktop/web windows.
+- **Modern UI:** Features a sleek, dark-themed design with rose and pink accents.
+- **Event Information:** Displays essential event details, including dates, location, and a description.
+- **Speaker Highlights:** Showcases the guest speakers in an organized grid.
+- **Call to Action:** Includes a persistent registration button.
 
 ## Tech Stack
-- **Framework:** Flutter
-- **Language:** Dart
-- **Design:** Custom Material 3 theme (Dark mode, Slate & Cyan aesthetics)
+- Flutter
+- Dart
 
-## Setup
-To run the digital flyer locally:
+## Getting Started
 
-1. Make sure you have Flutter installed.
-2. Run `flutter pub get` to fetch any dependencies.
-3. Launch with `flutter run` on your target device (iOS, Android, macOS, Windows, Linux, or Web).
+To run the application locally:
+
+1. Ensure you have Flutter installed.
+2. Clone the repository.
+3. Run `flutter pub get` to fetch dependencies.
+4. Run `flutter run` to launch the app on your desired device or emulator.
 
 ---
 

@@ -105,14 +105,14 @@ class FlyerContent extends StatelessWidget {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                Color(0xFF2563EB), // Blue 600
-                Color(0xFF9333EA), // Purple 600
+                Color(0xFFE11D48), // Rose 600
+                Color(0xFFBE185D), // Pink 700
               ],
             ),
           ),
           child: const Center(
             child: Icon(
-              Icons.rocket_launch_rounded,
+              Icons.favorite_rounded,
               size: 80,
               color: Colors.white,
             ),
@@ -135,9 +135,9 @@ class FlyerContent extends StatelessWidget {
                       border: Border.all(color: const Color(0xFF38BDF8).withOpacity(0.5)),
                     ),
                     child: const Text(
-                      'TECH CONFERENCE',
+                      'MARRIAGE SEMINAR',
                       style: TextStyle(
-                        color: Color(0xFF38BDF8),
+                        color: Color(0xFFFDA4AF), // Rose 300
                         fontWeight: FontWeight.bold,
                         fontSize: 12,
                         letterSpacing: 1.5,
@@ -150,20 +150,29 @@ class FlyerContent extends StatelessWidget {
               
               // Title
               const Text(
-                'NEXUS AI\nSUMMIT 2026',
+                'SECRETS OF LONG-LASTING MARRIAGES',
                 style: TextStyle(
-                  fontSize: 42,
+                  fontSize: 38,
                   fontWeight: FontWeight.w900,
                   height: 1.1,
-                  letterSpacing: -1,
+                  letterSpacing: -0.5,
                   color: Colors.white,
+                ),
+              ),
+              const SizedBox(height: 8),
+              const Text(
+                'Building a Marriage That Lasts a Lifetime',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.w600,
+                  color: Color(0xFFFDA4AF),
                 ),
               ),
               const SizedBox(height: 16),
               
               // Description
               const Text(
-                'Join the brightest minds in artificial intelligence for a three-day intensive exploration of the future. Discover next-generation algorithms, autonomous systems, and ethical AI frameworks.',
+                'Join relationship experts and seasoned couples for an enriching weekend dedicated to strengthening your bond. Discover communication strategies, practical tools for navigating conflict, and the foundational pillars that make love endure.',
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.white70,
@@ -175,19 +184,19 @@ class FlyerContent extends StatelessWidget {
               // Details Grid
               const InfoCard(
                 icon: Icons.calendar_today_rounded,
-                title: 'October 15-17, 2026',
-                subtitle: 'Doors open at 9:00 AM',
+                title: 'February 14-16, 2027',
+                subtitle: 'Friday evening to Sunday afternoon',
               ),
               const SizedBox(height: 16),
               const InfoCard(
                 icon: Icons.location_on_rounded,
-                title: 'The Obsidian Center',
-                subtitle: '100 Innovation Way, San Francisco',
+                title: 'Harmony Retreat Center',
+                subtitle: '250 Serenity Lane, Asheville, NC',
               ),
               
               const SizedBox(height: 32),
               const Text(
-                'KEYNOTE SPEAKERS',
+                'GUEST SPEAKERS',
                 style: TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
@@ -202,9 +211,9 @@ class FlyerContent extends StatelessWidget {
                 spacing: 12,
                 runSpacing: 12,
                 children: const [
-                  SpeakerChip(name: 'Dr. Elena Rostova', role: 'Head of Neural Networks'),
-                  SpeakerChip(name: 'Marcus Chen', role: 'Chief AI Architect'),
-                  SpeakerChip(name: 'Sarah Jenkins', role: 'Ethics & Policy Lead'),
+                  SpeakerChip(name: 'Drs. John & Jane Doe', role: 'Marriage Counselors'),
+                  SpeakerChip(name: 'Michael Smith', role: 'Author, "Love Endures"'),
+                  SpeakerChip(name: 'Sarah & David Lee', role: 'Married 40+ Years'),
                 ],
               ),
               
